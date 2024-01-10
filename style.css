@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #00000014;
+}
+
+header {
+  text-align: center;
+  font-family: Lora;
+  font-size: 26px;
+  line-height: 48px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.service {
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+}
+
+.service img {
+  max-width: 100%;
+  position: relative;
+}
+.service button {
+  display: flex;
+  font-size: 20px;
+  color: #ec5598;
+  font-family: Lato;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+  padding-left: 160px;
+}
+.description {
+  text-align: center;
+  background-color: #ffffff;
+  width: 300px;
+  height: 150px;
+  margin-left: 6.2%;
+  position: absolute;
+  top: 65%;
+}
+.service .description h1 {
+  font-family: Lora;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
+.service .description p {
+  font-family: Lato;
+  font-size: 14px;
+  text-align: left;
+  padding: 7px;
+  padding-left: 20px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-footer {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ff427f;
+  border: 2px solid #ff427f;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+}
+
+@media (max-width: 400px) {
+  .service {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20%;
+  }
+  .description {
+    text-align: center;
+    background-color: #ffffff;
+    width: 88%;
+    height: 150px;
+    margin-right: 10%;
+    margin-left: 0px;
+    position: absolute;
+    top: 70%;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  .btn-footer {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ff427f;
+    border: 2px solid #ff427f;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    position: absolute;
+    bottom: -1050px;
+  }
+}
